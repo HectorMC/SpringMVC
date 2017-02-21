@@ -1,4 +1,4 @@
-package com.springapp.object;
+package com.object;
 
 /**
  * Created by hector.meza on 03/02/2017.

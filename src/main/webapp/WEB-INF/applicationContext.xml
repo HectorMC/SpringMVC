@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.springapp.mvc"/>
+    <context:component-scan base-package="com.controller"/>
 
 
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -19,7 +19,7 @@
     </bean>
 
 
-    <bean class="com.springapp.object.timeoutClass" id="timeoutClass">
+    <bean class="com.object.timeoutClass" id="timeoutClass">
         <property name="timeout" value="${timeout}" />
     </bean>
 
